@@ -22,7 +22,12 @@ https://learn.microsoft.com/en-us/windows/wsl/install
 wsl --install
 ```
 
-
+## git config
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+```
 
 ## install docker-ce
 
